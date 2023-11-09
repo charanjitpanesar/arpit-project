@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section_1_Start */
+.section_1{
+    padding: 100px 0;
+}
+.section_1 .parent_area .left_area{
+    padding-right: 130px;
+}
+.section_1 .parent_area .left_area .heading_area h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #000;
+}
+.section_1 .parent_area .left_area .heading_area_2{
+    padding-top: 40px;
+}
+.section_1 .parent_area .left_area .heading_area_2 h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: gray;
+}
+/* Section_2_End */
+
+
+
+/* Above 1920 desktop */
+@media (min-width: 1920px){
+    
+}
+
+/* 1680 desktop */
+@media (min-width: 1680px) and (max-width: 1919px){
+    
+}
+
+/* 1600 desktop */
+@media (min-width: 1600px) and (max-width: 1679px){
+    
+}
+
+/* Above 1400 and Below 1599 Desktop*/
+@media (min-width: 1400px) and (max-width: 1599px){
+    
+}
+
+/* 1300 desktop only */
+@media (min-width: 1300px) and (max-width: 1399px){
+    .section_1{
+        padding: 80px 0;
+    }
+    .section_1 .parent_area .left_area .heading_area h3{
+        font-size: 40px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2{
+        padding-top: 30px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2 h3{
+        font-size: 28px;
+    }
+}
+
+/* 1200 desktop only */
+@media (min-width: 1200px) and (max-width: 1299px){
+    .section_1{
+        padding: 80px 0;
+    }
+    .section_1 .parent_area .left_area .heading_area h3{
+        font-size: 40px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2{
+        padding-top: 30px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2 h3{
+        font-size: 28px;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .section_1{
+        padding: 60px 0;
+    }
+    .section_1 .parent_area .left_area .heading_area h3{
+        font-size: 35px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2{
+        padding-top: 20px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2 h3{
+        font-size: 26px;
+    }
+}
+
+/* Landscape tablets and ipad */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section_1{
+        padding: 50px 0;
+    }
+    .section_1 .parent_area .left_area{
+        padding-right: 0;
+    }
+    .section_1 .parent_area .left_area .heading_area h3{
+        font-size: 30px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2{
+        padding-top: 15px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2 h3{
+        font-size: 24px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 576px) and (max-width: 767px) {
+    .section_1{
+        padding: 40px 0;
+    }
+    .section_1 .parent_area .left_area{
+        padding-right: 0;
+    }
+    .section_1 .parent_area .left_area .heading_area h3{
+        font-size: 25px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2{
+        padding-top: 10px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2 h3{
+        font-size: 20px;
+    }
+    .section_1 .parent_area .right_area{
+        padding-top: 20px;
+    }
+    .section_1 .parent_area .right_area .text_area p{
+            font-size: 14px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 361px) and (max-width: 575px) {
+    .section_1{
+        padding: 30px 0;
+    }
+    .section_1 .parent_area .left_area{
+        padding-right: 0;
+    }
+    .section_1 .parent_area .left_area .heading_area h3{
+        font-size: 20px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2{
+        padding-top: 10px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2 h3{
+        font-size: 18px;
+    }
+    .section_1 .parent_area .right_area{
+        padding-top: 15px;
+    }
+    .section_1 .parent_area .right_area .text_area p{
+            font-size: 14px;
+    }
+}
+
+/* Smaller phones */
+@media (max-width: 360px) {
+    .section_1{
+        padding: 30px 0;
+    }
+    .section_1 .parent_area .left_area{
+        padding-right: 0;
+    }
+    .section_1 .parent_area .left_area .heading_area h3{
+        font-size: 20px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2{
+        padding-top: 10px;
+    }
+    .section_1 .parent_area .left_area .heading_area_2 h3{
+        font-size: 18px;
+    }
+    .section_1 .parent_area .right_area{
+        padding-top: 15px;
+    }
+    .section_1 .parent_area .right_area .text_area p{
+            font-size: 14px;
+    }
+}
+
+/* Smaller phones */
+@media (max-width: 320px) {
+    
+}
